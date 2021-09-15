@@ -72,6 +72,10 @@
                   <li class="nav-item">
                 <a class="nav-link" href="vr.php"  style="color: blue;font-weight: bold;">View Report</a>
               </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="vm.php"  style="color: blue;font-weight: bold;">View Meetings</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html"  style="color: blue;font-weight: bold;">Contact</a>
               </li>

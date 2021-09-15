@@ -73,7 +73,7 @@ ob_end_flush();
           <div class="row">
             <div class="col-md-6 col-sm-6 col-5">
               <ul class="social list-unstyled">
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://www.facebook.com/fadi.debow"><span class="fa fa-facebook"></span></a></li>
                 <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                 <li><a href="#"><span class="fa fa-instagram"></span></a></li>
               </ul>
@@ -120,7 +120,9 @@ ob_end_flush();
 		Username <span class="fa fa-user"></span>: <input type="text" style="color: rgb(10,100,200);padding: 9px;border-color: white;" placeholder="enter your username" name="n" class="form-control" required>
 		<div style="height: 10px;"></div>		
 		Password <span class="fa fa-star"></span>: <input type="password" style="color: rgb(10,100,200);padding: 9px;border-color: white;" placeholder="enter your password" name="p" class="form-control" required> 
+    <a href="fp.php">Forget Passowrd? Click here</a>
 		<div style="height: 60px;"></div>
+
 		<button type="submit" name="logbtn" class="btn btn-primary"><span class=""></span> Join Us <span class="fa fa-lock"></span></button>
 		<a style="font-size: 18px;text-decoration: none;color: white" href="signup.php"> create acount</a>
 		</form>

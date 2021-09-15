@@ -27,7 +27,7 @@ header("location:login.php");
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body  style="background-image:url(img/slider-2.jpg); background-size: cover;">
+  <body  style="background-image:url(img/slider-1.jpg); background-size: cover;">
 <header role="banner">
   <div class="top-bar">
         <div class="container">

@@ -92,6 +92,8 @@ header("location:login.php");
                <th class="bg-info" style="padding: 10px;border:solid #fff;"> day</th>
                    <th class="bg-info" style="padding: 10px;border:solid #fff;"> time</th>
               <th class="bg-info" style="padding: 10px;border:solid #fff;">Doctor Report</th>
+
+                <th class="bg-info" style="padding: 10px;border:solid #fff;">create Meeting</th>
               <?php include'conn.php';
               
              
@@ -110,6 +112,8 @@ header("location:login.php");
                         <td class="bg-info" style="padding: 10px;border:solid #fff;font-weight: bold;"><?php echo $row['day'];  ?></td>
                           <td class="bg-info" style="padding: 10px;border:solid #fff;font-weight: bold;"><?php echo $row['time'];  ?></td>
                       <td style="padding: 10px;border:solid #fff;font-weight: bold;"><button class="btn btn-info text-white" data-toggle="modal" data-target="#rep_<?php echo $row['pid']; ?>">Doctor Report</button></td>
+
+                      <td style="padding: 10px;border:solid #fff;font-weight: bold;"><a class="btn btn-info text-white" href="addlink.php?f=<?php echo $row['pid'];  ?>">Zoom Meeting</a></td>
 
                 </tr>
 <div class="container">

@@ -61,6 +61,8 @@ header("location:login.php");
               <li class="nav-item">
                 <a class="nav-link" href="seepatient.php">see patient</a>
               </li>
+
+              
                <li class="nav-item">
                 <a class="nav-link" href="login.php">Sign Out</a>
               </li>
